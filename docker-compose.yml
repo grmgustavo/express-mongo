@@ -8,6 +8,5 @@ services:
     ports:
       - 27017:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: password
-      MONGODB_DATABASE: alura-node
+      MONGO_INITDB_DATABASE: aluranode
+      
